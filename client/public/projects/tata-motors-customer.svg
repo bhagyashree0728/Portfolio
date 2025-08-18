@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#173a5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g2)"/>
+  <g opacity="0.2" fill="#64ffda">
+    <rect x="150" y="140" width="120" height="120" rx="16"/>
+    <rect x="1010" y="500" width="160" height="160" rx="20"/>
+    <rect x="900" y="120" width="90" height="90" rx="12"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#64ffda" font-family="Poppins, Arial" font-size="52" font-weight="700">Tata Motors – Customer</text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" fill="#8892b0" font-family="Poppins, Arial" font-size="24">OTP Login • Build Your Vehicle • APIs</text>
+</svg>
+

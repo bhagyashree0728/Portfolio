@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="gSpend" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#173454"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#gSpend)"/>
+
+  <!-- Background decorative shapes -->
+  <g opacity="0.18" stroke="#64ffda" stroke-width="3" fill="none">
+    <circle cx="240" cy="520" r="110"/>
+    <circle cx="1080" cy="160" r="70"/>
+    <rect x="120" y="140" width="160" height="160" rx="20"/>
+  </g>
+
+  <!-- Finance themed bars -->
+  <g transform="translate(180,420)" opacity="0.22" fill="#64ffda">
+    <rect x="0" y="-40" width="28" height="80" rx="6"/>
+    <rect x="48" y="-70" width="28" height="140" rx="6"/>
+    <rect x="96" y="-20" width="28" height="40" rx="6"/>
+    <rect x="144" y="-95" width="28" height="190" rx="6"/>
+    <rect x="192" y="-55" width="28" height="110" rx="6"/>
+  </g>
+
+  <!-- Pie ring for 60-30-10 budgeting -->
+  <g transform="translate(980,240)">
+    <!-- base ring -->
+    <circle r="120" fill="none" stroke="#16324a" stroke-width="22"/>
+    <!-- 60% segment -->
+    <circle r="120" fill="none" stroke="#64ffda" stroke-width="22"
+            stroke-linecap="round" transform="rotate(-90)"
+            stroke-dasharray="452 302"/>
+    <!-- 30% segment -->
+    <circle r="120" fill="none" stroke="#47d9c0" stroke-width="22"
+            stroke-linecap="round" transform="rotate(180)"
+            stroke-dasharray="226 528"/>
+    <!-- 10% segment -->
+    <circle r="120" fill="none" stroke="#2aa897" stroke-width="22" 
+            stroke-linecap="round" transform="rotate(30)"
+            stroke-dasharray="75 679"/>
+    <!-- center icon: simple wallet/card -->
+    <g filter="url(#softShadow)">
+      <rect x="-58" y="-30" width="116" height="60" rx="10" fill="#0f2745" stroke="#64ffda" stroke-width="2"/>
+      <rect x="-42" y="-14" width="52" height="28" rx="6" fill="#173e63"/>
+      <circle cx="30" cy="0" r="6" fill="#64ffda"/>
+    </g>
+  </g>
+
+  <!-- Title and subtitle -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#64ffda"
+        font-family="Poppins, Arial" font-size="52" font-weight="700">SpendLit – Expense Tracker</text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" fill="#8892b0"
+        font-family="Poppins, Arial" font-size="24">MERN • CRUD • 60–30–10 Theming</text>
+</svg>
+
+
